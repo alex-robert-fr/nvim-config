@@ -12,7 +12,7 @@ return {
 
 		-- Créez un autocommand pour lancer :TailwindSort lors de l'événement BufWritePost
 		vim.api.nvim_create_autocmd("BufWritePost", {
-			pattern = { "*.js", "*.ts", "*.jsx", "*.tsx" },
+			pattern = { "*.jsx", "*.tsx" },
 			callback = function()
 				vim.cmd("TailwindSort")
 			end,
