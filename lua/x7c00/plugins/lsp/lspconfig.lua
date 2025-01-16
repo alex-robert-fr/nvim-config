@@ -6,6 +6,9 @@ return {
 		{ "antosha417/nvim-lsp-file-operations", config = true },
 		{ "folke/lazydev.nvim" },
 	},
+	{
+		"github/copilot.vim",
+	},
 	config = function()
 		local lspconfig = require("lspconfig")
 		local mason_lspconfig = require("mason-lspconfig")

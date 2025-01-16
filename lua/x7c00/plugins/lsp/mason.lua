@@ -28,6 +28,7 @@ return {
 				"lua_ls",
 				"cssmodules_ls",
 				"kotlin_language_server",
+				"clangd",
 			},
 		})
 

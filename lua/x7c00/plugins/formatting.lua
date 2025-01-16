@@ -19,6 +19,7 @@ return {
 				lua = { "stylua" },
 				java = { "google-java-format" },
 				kotlin = { "ktfmt" },
+				c = { "clang-format" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
